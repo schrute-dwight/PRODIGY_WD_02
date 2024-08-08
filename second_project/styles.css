@@ -6,13 +6,28 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #46a964;
+    background-color:black;
 }
 .about{
-    display: block;
+    color:rgb(254, 254, 254);
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size:40px;
+    font-style: normal;
 }
+
 .stopwatch {
     text-align: center;
+}
+
+.container{
+    display:block;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin:10px;
+    padding:40px;
+    
 }
 
 .display {
